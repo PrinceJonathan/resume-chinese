@@ -161,6 +161,11 @@
         });
     };
 
+    $("#mail").click(function() {
+        $("#address").clone()
+        alert('已複製email網址')
+    });
+
 
 
 

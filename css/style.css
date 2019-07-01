@@ -1833,3 +1833,28 @@ footer .copyright {
     line-height: 30px;
     color: #ffffff;
 }
+
+.toolTip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.toolTip .toolTiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: rgb(93, 95, 223);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.toolTip:hover .toolTiptext {
+    visibility: visible;
+}
