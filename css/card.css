@@ -34,21 +34,19 @@
 .flip-card-front {
     background-color: #bbb;
     color: black;
-    z-index: 2;
 }
 
 .flip-card-back {
     background-color: #f1f3f5;
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
-    z-index: 1;
-}
-
-.flip-card-back p {
-    margin-bottom: 0px;
 }
 
 .flip-card-back h1 {
     text-align: center;
     margin-top: 20px;
+}
+
+.flip-card-back p {
+    text-align: center;
 }
