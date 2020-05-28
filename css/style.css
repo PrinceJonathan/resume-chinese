@@ -1716,7 +1716,6 @@ input[type="text"] {
 }
 
 #footer {
-    padding: 8em 0;
     display: block;
     width: 100%;
 }
@@ -1784,10 +1783,6 @@ input[type="text"] {
 
 .js .animate-box {
     opacity: 0;
-}
-
-footer {
-    padding: 50px 0 65px;
 }
 
 footer .list-inline {
