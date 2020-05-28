@@ -161,14 +161,6 @@
         });
     };
 
-    $("#mail").click(function() {
-        $("#address").clone()
-        alert('已複製email網址')
-    });
-
-
-
-
     // Document on load.
     $(function() {
         fullHeight();
@@ -178,5 +170,16 @@
         owlCarouselFeatureSlide();
     });
 
+    // 自製js
+    $("#mail").click(function() {
+        /* Get the text field */
+        var copyText = document.getElementById("gmailname");
+        /* Select the text field */
+        copyText.val.text.select();
+        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+        alert("dfs");
+    });
 
 }());

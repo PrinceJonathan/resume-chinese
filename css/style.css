@@ -1824,37 +1824,33 @@ footer .copyright {
     color: #ffffff;
 }
 
-#myBar1 {
-    width: 10%;
-    height: 30px;
-    background-color: #5bc0de;
-    text-align: center;
-    border-radius: 20px;
-    line-height: 30px;
-    color: #ffffff;
+.facebook {
+    color: #5e5e5e;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
-.toolTip {
-    position: relative;
-    display: inline-block;
+.facebook:hover {
+    color: #3F51B5;
+}
+
+.email {
+    color: #5e5e5e;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.email:hover {
+    color: #5f3267;
     cursor: pointer;
 }
 
-.toolTip .toolTiptext {
-    visibility: hidden;
-    width: 220px;
-    background-color: rgb(93, 95, 223);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: -5px;
-    left: 105%;
+.linkedin {
+    color: #5e5e5e;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
-.toolTip:hover .toolTiptext {
-    visibility: visible;
+.linkedin:hover {
+    color: #0077b5;
 }
