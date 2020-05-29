@@ -1849,3 +1849,12 @@ footer .copyright {
 .linkedin:hover {
     color: #0077b5;
 }
+
+#ppt {
+    text-decoration: underline;
+}
+
+#ppt:hover {
+    color: #0077b5;
+    cursor: pointer;
+}

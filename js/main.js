@@ -160,12 +160,7 @@
             ]
         });
     };
-
-    // 自製js
-    $("#email").click(function() {
-       alert("Gmail: a0926587680@gmail.com")
-    });
-
+   
     // Document on load.
     $(function() {
         fullHeight();
@@ -175,6 +170,14 @@
         owlCarouselFeatureSlide();
     });
 
-    
+     // 自製js
+     $("#email").click(function() {
+        alert("Gmail: a0926587680@gmail.com")
+     });
+
+     $("#ppt").click(function() {
+         window.open("https://www.space.ntu.edu.tw/navigate/s/1DD5AC09C79445D79D09B357CD1953A2QQY");
+     })
+ 
 
 }());
